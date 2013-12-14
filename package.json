@@ -1,0 +1,17 @@
+{
+  "name": "smoothstep",
+  "version": "1.0.0",
+  "description": "The smoothstep function",
+  "keywords": [
+    "interpolation",
+    "animation",
+    "smooth"
+  ],
+  "author": "Gaëtan Renaudeau <renaudeau.gaetan@gmail.com>",
+  "main": "index.js",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gre/smoothstep.git"
+  }
+}
