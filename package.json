@@ -1,17 +1,48 @@
 {
   "name": "smoothstep",
   "version": "1.0.0",
-  "description": "The smoothstep function",
-  "keywords": [
-    "interpolation",
-    "animation",
-    "smooth"
-  ],
-  "author": "Gaëtan Renaudeau <renaudeau.gaetan@gmail.com>",
+  "description": "bare-bones smoothstep interpolation function",
   "main": "index.js",
   "license": "BSD",
+  "author": "Gaëtan Renaudeau <renaudeau.gaetan@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.13.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/gre/smoothstep.git"
-  }
+  },
+  "homepage": "https://github.com/gre/smoothstep",
+  "bugs": {
+    "url": "https://github.com/gre/smoothstep/issues"
+  },
+  "keywords": [
+    "cubic",
+    "hermite",
+    "smooth",
+    "smoothstep",
+    "glsl",
+    "interpolation",
+    "interp",
+    "lerp",
+    "mix",
+    "threshold"
+  ]
 }
