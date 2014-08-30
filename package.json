@@ -1,6 +1,6 @@
 {
   "name": "smoothstep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bare-bones smoothstep interpolation function",
   "main": "index.js",
   "license": "BSD",
